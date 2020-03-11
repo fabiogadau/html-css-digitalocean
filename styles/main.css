@@ -9,8 +9,16 @@ body {
   color: #0080ff;
 }
 
+.color-black {
+  color: #000;
+}
+
 .color-white {
   color: #fff;
+}
+
+.dark-grey {
+  color: #516285;
 }
 
 .font-500 {
@@ -18,8 +26,16 @@ body {
   font-size: 23px;
 }
 
-.color-black {
-  color: #000;
+.main-h2 {
+  font-size: 40px;
+}
+
+.dark-blue {
+  color: #031b4e;
+}
+
+.bg-grey {
+  background-color: #f3f5f9;
 }
 
 .float-left {
@@ -86,7 +102,7 @@ header a {
   font-size: 60px;
 }
 
-.jumbotron-p {
+.grey-p {
   color: #ccdaff;
 }
 
@@ -117,7 +133,6 @@ header a {
 /*Main*/
 /*Customer*/
 #customer {
-  background-color: #f3f5f9;
   padding: 50px 0 30px;
 }
 
@@ -127,7 +142,7 @@ header a {
 
 #customer span {
   font-weight: 500;
-  color: #4e5f83;
+  color: #99a3b8;
 }
 
 .img-col {
@@ -141,6 +156,27 @@ header a {
 /*Customer End*/
 
 /*Deploy*/
+#deploy {
+  padding: 60px 0 40px;
+}
 
+.deploy-title {
+  margin-bottom: 50px;
+}
+
+#deploy blockquote {
+  margin-bottom: 30px;
+}
+
+.col-deploy-height {
+  height: 150px;
+  margin-bottom: 30px;
+}
 /*Deploy End*/
+
+/*Designed*/
+#designed {
+  padding: 50px 0 50px;
+}
+/*Designed End*/
 /*Main End*/
