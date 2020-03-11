@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Ocean</title>
     <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/all.min.css">
     <!--Bootstrap 3 CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -31,10 +31,11 @@
             </ul>
           </div>
           <div class="col-logo col-md-4 col-lg-4 hidden-xs hidden-sm">
-            <ul class="list-inline">
+            <ul class="list-inline text-right">
               <li><a href="#">Docs</a></li>
               <li><a href="#">Support</a><i class="fas fa-angle-down"></i></li>
               <li><a href="#">Login</a></li>
+              <li><button type="button" class="btn btn-default header-button"><a class="digitalocean-color" href="#">Sign Up</a></button></li>
             </ul>
           </div>
           <div class="col-logo col-xs-6 col-sm-6 hidden-md hidden-lg">
@@ -48,11 +49,38 @@
     <!--Jumbotron-->
     <div id="jumbotron">
       <div class="container">
-
+        <div class="row">
+          <div class="jumbotron-title col-xs-12 col-sm-12 col-md-7 col-lg-7">
+            <h1 class="jumbotron-h1 color-white">The simplest cloud platform for developers & teams</h1>
+            <p class="jumbotron-p font-500">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+          </div>
+          <div class="form-col text-center col-xs-12 col-sm-12 col-md-5 col-lg-5">
+            <h2>Deploy your app in seconds.</h2>
+            <h2 class="digitalocean-color">Get started now.</h2>
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-default btn-block btn-bg-blue">
+                <a class="color-white" href="#">Create your account</a>
+              </button>
+              <button type="submit" class="btn btn-default btn-block btn-sign">
+                <p class="text-left float-left"><img class="google-icon" src="img/google-icon.png" alt="google"></p>
+                <a class="color-black line-height" href="#">Sign up with Google</a>
+              </button>
+            </form>
+            <span class="terms">By signing up you agree to the <a href="#">Terms of Service.</a></span>
+          </div>
+        </div>
       </div>
-
     </div>
     <!--Jumbotron End-->
+
+    <!--Main-->
+    <!--Main End-->
 
 
 
