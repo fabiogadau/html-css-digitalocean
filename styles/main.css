@@ -113,3 +113,34 @@ header a {
   font-size: 12px;
 }
 /*Jumbotron End*/
+
+/*Main*/
+/*Customer*/
+#customer {
+  background-color: #f3f5f9;
+  padding: 50px 0 30px;
+}
+
+#customer img {
+  max-width: 150px;
+}
+
+#customer span {
+  font-weight: 500;
+  color: #4e5f83;
+}
+
+.img-col {
+  position: relative;
+}
+
+.img-col img {
+  position: absolute;
+  top: 10%;
+}
+/*Customer End*/
+
+/*Deploy*/
+
+/*Deploy End*/
+/*Main End*/
