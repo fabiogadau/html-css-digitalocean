@@ -1,0 +1,47 @@
+body {
+  padding-top: 72px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/*Utilities*/
+.digitalocean-color {
+  color: #0080ff;
+}
+
+/*Header*/
+header {
+  background-color: #fff;
+  padding-top: 10px;
+}
+
+header .container .row div img {
+  max-width: 37px;
+  float: left;
+  padding-right: 10px;
+}
+
+.digitalocean {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: -1;
+}
+
+.col-logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+}
+
+.col-logo ul,
+.col-logo p {
+  line-height: 2;
+}
+/*Header End*/
+
+/*Jumbotron*/
+#jumbotron {
+  height: 500px;
+  background-image: url('../img/bg-banner-home.jpg');
+}
+/*Jumbotron End*/
