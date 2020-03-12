@@ -26,6 +26,10 @@ body {
   font-size: 23px;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .main-h2 {
   font-size: 40px;
 }
@@ -153,6 +157,10 @@ header a {
   position: absolute;
   top: 10%;
 }
+
+#customer a {
+  color: #0080ff;
+}
 /*Customer End*/
 
 /*Deploy*/
@@ -193,16 +201,6 @@ header a {
   max-width: 100%;
 }
 
-.col-icon {
-  position: relative;
-}
-
-.col-icon i {
-  display: block;
-  position: absolute;
-  top: 50%;
-}
-
 .slider {
   position: relative;
 }
@@ -221,11 +219,19 @@ header a {
 .slider .fa-chevron-right {
   right: -40px;
 }
+
+#designed a {
+  color: #0080ff;
+}
 /*Designed End*/
 
 /*Features*/
 #features {
   padding: 40px 0 50px;
+}
+
+#features a {
+  color: #0080ff;
 }
 /*Features End*/
 
@@ -254,5 +260,37 @@ header a {
 .test {
   font-size: 14px;
 }
+
+#service a {
+  color: #0080ff;
+}
 /*Service End*/
+
+/*Team*/
+#team {
+  padding: 50px 0 50px;
+}
+
+#team a {
+  color: #0080ff;
+}
+
+.team-title {
+  margin-bottom: 80px;
+}
+
+.slider-padding {
+  padding: 100px 2px 100px;
+  background-color: #fff;
+}
+
+.slider-padding img {
+  max-width: 100%;
+}
+/*Team End*/
 /*Main End*/
+
+#footer-up {
+  padding: 70px 0 70px;
+  background-image: linear-gradient(#0069ff, #031b4e);
+}
