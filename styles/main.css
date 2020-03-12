@@ -177,5 +177,55 @@ header a {
 #designed {
   padding: 50px 0 50px;
 }
+
+.fa-circle {
+  font-size: 14px;
+  margin-left: 0px;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.designed-col img {
+  max-width: 100%;
+}
+
+.col-icon {
+  position: relative;
+}
+
+.col-icon i {
+  display: block;
+  position: absolute;
+  top: 50%;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .fa-chevron-left,
+.slider .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider .fa-chevron-left {
+  left: -40px;
+}
+
+.slider .fa-chevron-right {
+  right: -40px;
+}
 /*Designed End*/
+
+/*Features*/
+#features {
+  padding: 40px 0 50px;
+}
+/*Features End*/
 /*Main End*/
