@@ -195,6 +195,7 @@ header a {
 .fa-chevron-right {
   font-weight: 700;
   font-size: 40px;
+  color: #031b4e;
 }
 
 .designed-col img {
@@ -220,6 +221,12 @@ header a {
   right: -40px;
 }
 
+.slider .fa-chevron-left:hover,
+.slider .fa-chevron-right:hover {
+  color: #0080ff;
+  cursor: pointer;
+}
+
 #designed a {
   color: #0080ff;
 }
@@ -238,7 +245,7 @@ header a {
 /*Service*/
 #service {
   padding: 50px 0 30px;
-  background-image: linear-gradient(#0069ff, #031b4e);
+  background-image: linear-gradient(#0049ff, #010e28);
 }
 
 .service-title {
@@ -290,7 +297,31 @@ header a {
 /*Team End*/
 /*Main End*/
 
+/*Footer*/
+/*Footer Up*/
 #footer-up {
   padding: 70px 0 70px;
-  background-image: linear-gradient(#0069ff, #031b4e);
+  background-color: #0049ff;
 }
+/*Footer Up End*/
+
+/*Footer Down*/
+#footer-down {
+  padding: 70px 0 70px;
+  background-color: #010e28;
+}
+
+#footer-down h4 {
+  font-size: 16px;
+}
+
+#footer-down a,
+#footer-down h4:first-of-type {
+  color: grey;
+}
+
+.list-margin li {
+  margin-bottom: 10px;
+}
+/*Footer Down End*/
+/*Footer End*/
