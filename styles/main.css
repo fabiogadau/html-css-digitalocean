@@ -341,6 +341,10 @@ footer {
 .list-margin li {
   margin-bottom: 10px;
 }
+
+.social-list li a {
+  font-size: 30px;
+}
 /*Footer Down End*/
 /*Footer End*/
 
