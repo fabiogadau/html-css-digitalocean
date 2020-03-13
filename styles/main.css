@@ -300,6 +300,7 @@ header a {
 /*Footer*/
 footer {
   background-color: #010e28;
+  padding-bottom: 60px;
 }
 
 /*Footer Up*/
@@ -336,6 +337,9 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .help,
