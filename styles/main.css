@@ -98,7 +98,7 @@ header a {
 }
 
 #jumbotron .container {
-  padding: 50px 0 50px;
+  padding: 50px 15px 50px;
 }
 
 .jumbotron-h1 {
@@ -266,12 +266,14 @@ header a {
   margin-bottom: 40px;
 }
 
-.service-col {
-  padding: 5px 1px 5px;
+.service-padding {
+  padding: 5px 5px 5px;
 }
 
-.service-border {
+.row.service-border {
   border-bottom: 1px solid #fff;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .test {
