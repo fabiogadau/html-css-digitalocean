@@ -186,9 +186,19 @@ header a {
   padding: 50px 0 50px;
 }
 
-.fa-circle {
-  font-size: 14px;
-  margin-left: 0px;
+.circle li {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #0080ff;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.circle li:hover,
+.circle li:focus,
+.circle li:active {
+  background-color: #0080ff;
 }
 
 .fa-chevron-left,
@@ -360,7 +370,7 @@ footer {
 }
 
 .shark::before {
-  content: '';
+  content: '2';
   position: absolute;
   top: -5px;
   left: -5px;
@@ -369,6 +379,10 @@ footer {
   background: red;
   border: 2px solid #fff;
   border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  line-height: 18px;
 }
 
 .help {
