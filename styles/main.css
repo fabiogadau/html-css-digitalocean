@@ -413,4 +413,18 @@ footer {
   /* Rotazione */
   transform: rotate(45deg);
 }
+
+@media screen and (max-width: 375px) {
+  .help::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 90px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    /* Rotazione */
+    transform: rotate(45deg);
+  }
+}
 /*Chat End*/
